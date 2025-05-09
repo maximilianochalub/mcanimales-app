@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        android:text="Usuario" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUsuario"
+        android:layout_marginBottom="10dp"
+        android:maxLength="20"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Contraseña" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/etPass"
+        android:maxLength="20" />
+
+    <Button
+        android:background="#8dc4ee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesión"
+        android:id="@+id/bIniciarSesion" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿No tienes cuenta aún?"
+        android:id="@+id/textView"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:background="#8dc4ee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrate"
+        android:id="@+id/bRegistro"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal" />
+
+
+
+
+</LinearLayout>

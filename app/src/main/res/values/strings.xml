@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PFC</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_iniciar_sesion">IniciarSesion</string>
+    <string name="title_activity_registrarse">Registrarse</string>
+    <string name="title_activity_principal_socios">PrincipalSocios</string>
+    <string name="title_activity_principal_no_socios">PrincipalNoSocios</string>
+    <string name="title_activity_usuario">Usuario</string>
+    <string name="title_activity_usuario_datos_locales">UsuarioDatosLocales</string>
+    <string name="title_activity_pantalla_launcher">PantallaLauncher</string>
+
+</resources>
